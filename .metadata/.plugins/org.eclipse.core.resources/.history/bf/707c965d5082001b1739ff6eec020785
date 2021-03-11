@@ -1,0 +1,26 @@
+package com.cg.lb6.ui;
+
+import java.util.Scanner;
+
+public class Excercise7 {
+	public static void main(String[] args) {
+		
+		int[] arr; 
+		
+		Scanner scanner = new Scanner(System.in);
+		int noOfArrayElements = scanner.nextInt();
+		for(int iter=0;iter<noOfArrayElements;iter++) {
+			int element = scanner.nextInt();
+			arr[iter]=element;
+		}
+		getSorted(arr);
+
+	}
+	public static int[] getSorted(int[] arr) {
+		int reversedArr[] = {};
+		System.out.println(arr.length);
+		
+		return reversedArr;
+	}
+
+}
